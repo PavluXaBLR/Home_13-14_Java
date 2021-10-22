@@ -62,7 +62,7 @@ if (year == 2012 || year == 2014 || year == 2018 || year == 2019 || year == 2021
 
 let name = prompt ("Ваше имя?");
 
-if (name == "Admin") {
+if (name == "Админ") {
   let password = prompt ("Пароль");
     if (password == "Я главный") {
       alert ("Здравствуйте");
@@ -74,7 +74,7 @@ if (name == "Admin") {
   }
   else if (name == "" || name == null) {
   alert ("Отменено");
-  } else if (name !== "Admin") {
+  } else if (name !== "Админ") {
   alert ("Я вас не знаю");
   }
 
