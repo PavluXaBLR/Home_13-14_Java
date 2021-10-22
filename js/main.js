@@ -13,7 +13,7 @@ let lastName = 'Ulasik';
 alert(`Привет, меня зовут ${firstName} ${lastName}, мне ${age} лет`);
 
 //4
-let teacher = prompt("Имя препадавателя");
+let teacher = prompt("Имя преподавателя");
 alert(`Мою работу проверяет ${teacher}`);
 
 /*5.1) Чему будут равны переменные (a, b, c и d) в примере ниже?
@@ -42,19 +42,19 @@ let year = prompt("Чемпионы англии по футболу");
 if (year < 2011 ) {
   alert("Статистика еще не велась");
 }
-if (year == 2022) {
+if (year === 2022) {
   alert("Сезон еще идет");
 }
 if (year > 2022) {
   alert("Все лучшее впереди!");
 }
-if (year == 2020) {
+if (year === 2020) {
   alert("Победитель ФК Ливерпуль");
 }
-if (year == 2015 || year == 2017) {
+if (year === 2015 || year === 2017) {
   alert("Победитель ФК Челси");
 }
-if (year == 2012 || year == 2014 || year == 2018 || year == 2019 || year == 2021) {
+if (year === 2012 || year === 2014 || year === 2018 || year === 2019 || year === 2021) {
   alert("Победитель ФК Манчестер Сити");
 }
 
@@ -62,9 +62,9 @@ if (year == 2012 || year == 2014 || year == 2018 || year == 2019 || year == 2021
 
 let name = prompt ("Ваше имя?");
 
-if (name == "Админ") {
+if (name === "Админ") {
   let password = prompt ("Пароль");
-    if (password == "Я главный") {
+    if (password === "Я главный") {
       alert ("Здравствуйте");
     } else if (password == null) {
       alert ("Отменено");
@@ -72,7 +72,7 @@ if (name == "Админ") {
       alert ("Не верный пароль");
     }
   }
-  else if (name == "" || name == null) {
+  else if (name === "" || name == null) {
   alert ("Отменено");
   } else if (name !== "Админ") {
   alert ("Я вас не знаю");
